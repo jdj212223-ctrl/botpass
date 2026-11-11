@@ -72,7 +72,7 @@ public final class BotPass {
                 .defineListAllowEmpty("botNames", List.of("claude"), () -> "", o -> o instanceof String s && !s.isBlank());
         IPS = b.comment("Only these IPs may log in as a bot (empty = any IP; the secret is still required)")
                 .defineListAllowEmpty("allowedIps", List.of(), () -> "", o -> o instanceof String);
-        MACHINES = b.comment("Only bots on these computers (by name, e.g. NEW-SIRI) may log in (empty = any; an extra check, the secret is the real lock)")
+        MACHINES = b.comment("Only bots on these computers (by name, e.g. MY-PC) may log in (empty = any; an extra check, the secret is the real lock)")
                 .defineListAllowEmpty("allowedMachines", List.of(), () -> "", o -> o instanceof String);
         BAN_MINUTES = b.comment("How long an IP that failed is banned").defineInRange("banMinutes", 1440, 1, 525600);
         SPEC = b.build();
