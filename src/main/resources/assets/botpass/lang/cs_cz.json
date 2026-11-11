@@ -1,0 +1,10 @@
+{
+  "botpass.banned": "Máš dočasný zákaz na tomto serveru (z tvého připojení přišlo neúspěšné přihlášení bota).",
+  "botpass.refused": "BotPass: toto jméno patří botovi serveru.",
+  "botpass.alert": "⚠ BotPass: někdo se zkusil připojit jako %s z %s (%s). Ta IP má teď na chvíli zákaz.",
+  "botpass.why.secret": "špatné tajemství",
+  "botpass.why.timeout": "žádná odpověď",
+  "botpass.why.no_mod": "nemá BotPass",
+  "botpass.why.ip": "nepovolená IP",
+  "botpass.why.machine": "nepovolený počítač"
+}

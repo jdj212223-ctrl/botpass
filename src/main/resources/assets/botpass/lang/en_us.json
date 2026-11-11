@@ -1,0 +1,10 @@
+{
+  "botpass.banned": "You're temporarily banned from this server (a failed bot login came from your connection).",
+  "botpass.refused": "BotPass: this name is reserved for the server's bot.",
+  "botpass.alert": "⚠ BotPass: someone tried to join as %s from %s (%s). That IP is banned for a while.",
+  "botpass.why.secret": "wrong secret",
+  "botpass.why.timeout": "no answer",
+  "botpass.why.no_mod": "no BotPass on their game",
+  "botpass.why.ip": "IP not allowed",
+  "botpass.why.machine": "computer not allowed"
+}

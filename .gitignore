@@ -1,0 +1,14 @@
+.gradle/
+build/
+run/
+.idea/
+*.iml
+.venv/
+run-compat/
+build.log
+libs/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+run-*.log
+*.m4a
+run-bad/

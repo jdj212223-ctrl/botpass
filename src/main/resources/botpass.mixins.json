@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.jdj125.botpass.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["LoginMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
